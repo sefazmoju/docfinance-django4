@@ -14,7 +14,7 @@ services:
       - "8000:8000"
     environment:
       - DEBUG=1
-      - SECRET_KEY=django-insecure-ph@vzy_yjsoit21lemcmm5ea(j!ql#g3b7ruggu$losdkk6rwo
+      - SECRET_KEY=CHAVE SECRETA AQUI
       - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
       - STATIC_URL=/static/
       - STATIC_ROOT=/app/staticfiles
